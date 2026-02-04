@@ -18,16 +18,16 @@ This section will cover:
 - NeoVim
 - Git Install
 
-### WSL (Windows Subsystem for Linux) {#wsl}
+### WSL (Windows Subsystem for Linux)
 Windows Subsytem for Linux (WSL) is a feature on Windows computers that allows you to run a Linux environment on your computer without having to install a virtual machine or install a new operating system
-### Python {#python}
-### Anaconda Install {#anaconda-install}
-### Creating Ancaonda Evnironments {#conda-environments}
-### Common Libraries and Packages {#common-libraries}
-### IDE {#ide}
-### VSCode {#vscode}
-### NeoVim {#neovim}
-### Git Install {#git-install}
+### Python
+### Anaconda Install
+### Creating Ancaonda Evnironments
+### Common Libraries and Packages
+### IDE
+### VSCode
+### NeoVim
+### Git Install
 
 ## Resources
 This section contains a list of common resources that we will utilize throughout the course of the club, as well as some extra resources for those who are especially ambitious
