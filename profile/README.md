@@ -56,7 +56,7 @@ After the file is done downloading, install Anaconda by running the following co
 bash ~/Anaconda3-2025.12-2-Linux-x86_64.sh
 ``
 
-This will then begin the installer in your terminal. When prompted, enter "yes" to agree to the Anaconda TOS. Then, press "enter" to accept the default installation location of ~/anaconda3. When asked if you would like to initialize conda, type "yes" and hit enter. If all goes well, the Anaconda distribution should be sucessfully installed in your WSL environment. Close and reopen your Ubuntu environment for the installation to take effect. If it was sucessfull, you should see "(base)" before your command line prompt. If the install failed, please drop a message in the Discord or let the organization President know. 
+This will then begin the installer in your terminal. When prompted, enter "yes" to agree to the Anaconda TOS. Then, press "enter" to accept the default installation location of ~/anaconda3. When asked if you would like to initialize conda, type "yes" and hit enter. If all goes well, the Anaconda distribution should be successfully installed in your WSL environment. Close and reopen your Ubuntu environment for the installation to take effect. If it was successful, you should see "(base)" before your command line prompt. If the install failed, please drop a message in the Discord or let the organization President know. 
 
 ### Creating Ancaonda Evnironments
 ### Common Libraries and Packages
