@@ -46,15 +46,15 @@ Anaconda is an open-source distribution of Python and R tailored specifically fo
 
 In order to install Anaconda, open a new terminal in the newly installed Ubnutu environment, make sure that you are in your home directory, and copy this command:
 
-'''
+``
 curl -O https://repo.anaconda.com/archive/Anaconda3-2025.12-2-Linux-x86_64.sh
-'''
+``
 
 After the file is done downloading, install Anaconda by running the following command:
 
-'''
+``
 bash ~/Anaconda3-2025.12-2-Linux-x86_64.sh
-'''
+``
 
 This will then begin the installer in your terminal. When prompted, enter "yes" to agree to the Anaconda TOS. Then, press "enter" to accept the default installation location of ~/anaconda3. When asked if you would like to initialize conda, type "yes" and hit enter. If all goes well, the Anaconda distribution should be sucessfully installed in your WSL environment. Close and reopen your Ubuntu environment for the installation to take effect. If it was sucessfull, you should see "(base)" before your command line prompt. If the install failed, please drop a message in the Discord or let the organization President know. 
 
