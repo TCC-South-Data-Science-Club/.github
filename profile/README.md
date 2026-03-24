@@ -65,6 +65,11 @@ This will then begin the installer in your terminal. When prompted, enter "yes" 
 ### NeoVim
 ### Git Install
 
+
 ## Resources
 This section contains a list of common resources that we will utilize throughout the course of the club, as well as some extra resources for those who are especially ambitious
+
+Python for Data Analysis (free): https://wesmckinney.com/book/
+Automate the Boring Stuff (free): https://automatetheboringstuff.com/3e/chapter0.html
+The Linux Command Line (free): https://linuxcommand.org/tlcl.php
 
