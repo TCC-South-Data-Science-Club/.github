@@ -75,12 +75,13 @@ This section contains a list of common resources that we will utilize throughout
 
 ### Programming Resources
 
-Python for Data Analysis (free): https://wesmckinney.com/book/
-Official Python Tutorial (free) : https://docs.python.org/3/tutorial/index.html
-Automate the Boring Stuff (free): https://automatetheboringstuff.com/3e/chapter0.html
-The Linux Command Line (free): https://linuxcommand.org/tlcl.php
+Python for Data Analysis - Wes McKinney (free): https://wesmckinney.com/book/ \
+Official Python Tutorial (free) : https://docs.python.org/3/tutorial/index.html \
+Automate the Boring Stuff - Al Sweigart (free): https://automatetheboringstuff.com/3e/chapter0.html \
+Impractical Pyhton Projects - Lee Vaughan (paid): https://www.amazon.com/Impractical-Python-Projects-Programming-Activities/dp/159327890X \
+The Linux Command Line - William Shotts (free): https://linuxcommand.org/tlcl.php
 
 ### Statistics Resources
 
-Probability - Jim Pitman (paid) : https://www.amazon.com/Probability-Springer-Texts-Statistics-Pitman/dp/0387979743
+Probability - Jim Pitman (paid) : https://www.amazon.com/Probability-Springer-Texts-Statistics-Pitman/dp/0387979743 \
 Introduction to Probability Theory - Hoel, Port, Stone (paid) : https://www.amazon.com/Introduction-Probability-Theory-Paul-Hoel/dp/039504637X
