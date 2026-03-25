@@ -38,38 +38,29 @@ If you've ever tried programming on your own before, you might have come across 
 
 Python's syntax is also very simple and highly readable. It is one of the easiest languages for beginners to pick up, and one of the fastest languages for developers to write in. 
 
-In our environment, it will not be necessary to install Python by itself, as we will be using Anaconda to manage our python installs and packages through the use of virtual environments.
+In our environment, it will not be necessary to install Python by itself, as we will be using mamba to manage our python installs and packages in virtual environments.
 
-### Anaconda
-Anaconda is an open-source distribution of Python and R tailored specifically for data science and machine learning. With the Anaconda distribution comes conda, a Python package and environment manager. Conda allows you to install software packages in isolated environments, allowing you to manage packages on a project by project basis. If this is your first time being introduced to the concept of package management, don't worry if you don't quite understand what that means quite yet or how it can be useful, we will cover it later on during our unit on using packages with Python.
+### Conda/Miniforge
+Miniforge is a lightweight installer for both [conda](https://docs.conda.io/en/latest/) and [mamba](https://github.com/mamba-org/mamba), two package and environment managers that allow you to manage packages on a project by project basis. Miniforge also installs both conda and mamba with the conda-forge channel preconfigured as the default package channel. If this is your first time being introduced to the concept of package management, don't worry if you don't quite understand what that means quite yet or how this can be useful; we will cover this later on during our unit on using packages with Python.
 
-In order to install Anaconda, open a new terminal in the newly installed Ubnutu environment, make sure that you are in your home directory, and copy this command:
-
-```
-curl -O https://repo.anaconda.com/archive/Anaconda3-2025.12-2-Linux-x86_64.sh
-```
-
-After the file is done downloading, install Anaconda by running the following command:
+In order to install miniforge, open a new terminal in the newly installed Ubuntu environment, make sure that you are in your home directory (you should see a '~' in your command line), and run this command:
 
 ```
-bash ~/Anaconda3-2025.12-2-Linux-x86_64.sh
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
 ```
 
-This will then begin the installer in your terminal. When prompted, enter "yes" to agree to the Anaconda TOS. Then, press "enter" to accept the default installation location of ~/anaconda3. When asked if you would like to initialize conda, type "yes" and hit enter. If all goes well, the Anaconda distribution should be successfully installed in your WSL environment. Close and reopen your Ubuntu environment for the installation to take effect. If it was successful, you should see "(base)" before your command line prompt. If the install failed, please drop a message in the Discord or let the organization President know. 
-
-Once Anaconda is installed, we are going to go ahead and change the package channel from the default channel to the conda-forge channel. Do not worry what this means, as it is a little bit beyond the scope of this guide.
-
-To do that, run the following commands:
+After the file is done downloading, install it by running the following command:
 
 ```
-conda config --add channels conda-forge
-conda config --set channel_priority strict
+bash Miniforge3-$(uname)-$(uname -m).sh
 ```
+
+This will then begin the installer in your terminal. When prompted, enter "yes" to agree to the license terms. Then, press "enter" to accept the default installation location of ~/miniforge3. When asked if you would like to initialize conda, type "yes" and hit enter. If all goes well, miniforge should be successfully installed onto your WSL environment. Close and reopen your Ubuntu environment for the installation to take effect. If it was successful, you should see "(base)" before your command line prompt. If the install failed, please drop a message in the Discord or let the organization President know. 
 
 After this, create a new conda environment using this command:
 
 ```
-conda create -y -n ds-club
+mamba create -y -n ds-club
 ```
 
 ### Common Libraries and Packages
